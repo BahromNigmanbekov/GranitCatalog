@@ -151,7 +151,11 @@ export const STONES: Stone[] = [
       absorption: "past",
     },
     images: ["/assets/angola-black.jpg"],
-    projects: [],
+    projects: [
+      { image: "/assets/angola-black-obj-1.jpg", caption: "Darvoza va fasad peshtoqi, xususiy uy" },
+      { image: "/assets/angola-black-obj-2.jpg", caption: "Fasad etagi (plinth), yaqindan" },
+      { image: "/assets/angola-black-obj-3.jpg", caption: "Fasad, boshqa rakurs" },
+    ],
     featured: false,
   },
   {

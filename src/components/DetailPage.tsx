@@ -1,9 +1,10 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { STONES, TYPE_LABELS, type StoneSpecs } from "../data/stones";
 import { Gallery } from "./Gallery";
 import { StoneCard } from "./StoneCard";
 import { StoneImage } from "./StoneImage";
+import { Lightbox } from "./Lightbox";
 
 const SPEC_LABELS: Record<keyof StoneSpecs, string> = {
   thickness: "Qalinlik",
@@ -16,9 +17,11 @@ const SPEC_LABELS: Record<keyof StoneSpecs, string> = {
 export function DetailPage() {
   const { id } = useParams<{ id: string }>();
   const stone = STONES.find((s) => s.id === id);
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    setLightboxIndex(null);
   }, [id]);
 
   if (!stone) {
@@ -76,16 +79,32 @@ export function DetailPage() {
       {stone.projects.length > 0 ? (
         <div className="grid">
           {stone.projects.map((p, i) => (
-            <div className="card" key={i}>
+            <button
+              type="button"
+              className="card project-card"
+              key={i}
+              onClick={() => setLightboxIndex(i)}
+              aria-label={`Kattalashtirish: ${p.caption || stone.name}`}
+            >
               <div className="card-thumb">
                 <StoneImage src={p.image} alt={p.caption || stone.name} className="card-img" />
+                <span className="project-zoom-hint" aria-hidden="true">⤢</span>
               </div>
               <p className="card-name">{p.caption}</p>
-            </div>
+            </button>
           ))}
         </div>
       ) : (
         <p className="projects-note">Bu tosh bilan bajarilgan ishlar tez orada shu yerga qo'shiladi.</p>
+      )}
+
+      {lightboxIndex !== null && (
+        <Lightbox
+          images={stone.projects.map((p) => ({ src: p.image, alt: p.caption || stone.name, caption: p.caption }))}
+          index={lightboxIndex}
+          onClose={() => setLightboxIndex(null)}
+          onIndexChange={setLightboxIndex}
+        />
       )}
 
       {similar.length > 0 && (

@@ -194,6 +194,37 @@ main {
   text-overflow: ellipsis;
 }
 
+.project-card {
+  width: 100%;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+}
+.project-zoom-hint {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease);
+}
+.project-card:hover .project-zoom-hint,
+.project-card:focus-visible .project-zoom-hint {
+  opacity: 1;
+}
+
 .load-more-row {
   display: flex;
   justify-content: center;
@@ -404,4 +435,104 @@ main {
   color: var(--text-faint);
   font-size: 12px;
   text-align: center;
+}
+
+/* ---------- lightbox ---------- */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  background: rgba(10, 10, 10, 0.94);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  gap: 12px;
+  overflow: hidden;
+}
+.lightbox-close {
+  position: absolute;
+  top: max(16px, env(safe-area-inset-top));
+  right: 16px;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 26px;
+  line-height: 1;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.lightbox-close:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+.lightbox-stage {
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  flex: 1 1 auto;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lightbox-img {
+  max-width: 100%;
+  max-height: 78vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+}
+.lightbox-arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 15%;
+  min-width: 44px;
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 44px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.75;
+  transition: opacity var(--dur) var(--ease);
+}
+.lightbox-arrow:hover {
+  opacity: 1;
+}
+.lightbox-arrow-prev {
+  left: 0;
+  justify-content: flex-start;
+}
+.lightbox-arrow-next {
+  right: 0;
+  justify-content: flex-end;
+}
+.lightbox-caption {
+  color: #e5e5e5;
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+  max-width: 90%;
+}
+.lightbox-dots {
+  display: flex;
+  gap: 6px;
+}
+.lightbox-dots .dot {
+  background: rgba(255, 255, 255, 0.35);
+}
+.lightbox-dots .dot-active {
+  background: #fff;
 }
