@@ -71,7 +71,10 @@ export const STONES: Stone[] = [
       absorption: "past",
     },
     images: ["/assets/granit-galaxy.jpg"],
-    projects: [],
+    projects: [
+      { image: "/assets/granit-galaxy-obj-1.jpg", caption: "Fontan maydonchasi, biznes-markaz oldi" },
+      { image: "/assets/granit-galaxy-obj-2.jpg", caption: "Bino oldi maydoni, boshqa rakurs" },
+    ],
     featured: true,
   },
   {

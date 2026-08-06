@@ -29,6 +29,8 @@ export const IMG_DIMS: Record<string, [number, number]> = {
   "/assets/angola-black-obj-1.jpg": [1161, 1999],
   "/assets/angola-black-obj-2.jpg": [1144, 1999],
   "/assets/angola-black-obj-3.jpg": [1179, 1915],
+  "/assets/granit-galaxy-obj-1.jpg": [1134, 1999],
+  "/assets/granit-galaxy-obj-2.jpg": [1138, 1999],
 };
 
 export const DEFAULT_DIMS: [number, number] = [3, 4];

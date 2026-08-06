@@ -13,6 +13,23 @@ interface Props {
   onIndexChange: (index: number) => void;
 }
 
+function CloseIcon() {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+function ChevronIcon({ direction }: { direction: "left" | "right" }) {
+  const d = direction === "left" ? "M15 5l-7 7 7 7" : "M9 5l7 7-7 7";
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d={d} stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
 export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
   const touchX = useRef<number | null>(null);
   const current = images[index];
@@ -42,7 +59,7 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
   return (
     <div className="lightbox" role="dialog" aria-modal="true" onClick={onClose}>
       <button type="button" className="lightbox-close" aria-label="Yopish" onClick={onClose}>
-        ×
+        <CloseIcon />
       </button>
 
       <div
@@ -58,7 +75,11 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
           touchX.current = null;
         }}
       >
-        {images.length > 1 && (
+        <img key={current.src} className="lightbox-img" src={current.src} alt={current.alt} />
+      </div>
+
+      {images.length > 1 && (
+        <>
           <button
             type="button"
             className="lightbox-arrow lightbox-arrow-prev"
@@ -68,18 +89,8 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
               go(index - 1);
             }}
           >
-            ‹
+            <ChevronIcon direction="left" />
           </button>
-        )}
-
-        <img
-          key={current.src}
-          className="lightbox-img"
-          src={current.src}
-          alt={current.alt}
-        />
-
-        {images.length > 1 && (
           <button
             type="button"
             className="lightbox-arrow lightbox-arrow-next"
@@ -89,10 +100,10 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
               go(index + 1);
             }}
           >
-            ›
+            <ChevronIcon direction="right" />
           </button>
-        )}
-      </div>
+        </>
+      )}
 
       {current.caption && <p className="lightbox-caption">{current.caption}</p>}
 
