@@ -1,36 +1,8 @@
+import dims from "./imageDims.json";
+
 // Intrinsic pixel sizes for each asset, used to set width/height on <img>
 // so the layout never shifts while an image is loading.
-export const IMG_DIMS: Record<string, [number, number]> = {
-  "/assets/labradorid.jpg": [720, 1280],
-  "/assets/zarband-marmar.jpg": [640, 1280],
-  "/assets/komandor-black.jpg": [403, 800],
-  "/assets/absolute-black.jpg": [649, 1280],
-  "/assets/kont-black-koja.jpg": [540, 960],
-  "/assets/kuksaroy.jpg": [360, 720],
-  "/assets/marmar-raja-green.jpg": [640, 1280],
-  "/assets/granit-plitka-polirovka-a.jpg": [542, 1084],
-  "/assets/bolyasina.jpg": [600, 1200],
-  "/assets/keramogranit-mikrokristallit.jpg": [735, 1102],
-  "/assets/granit-rozoviy.jpg": [736, 1104],
-  "/assets/granit-aurora.jpg": [591, 1280],
-  "/assets/angola-black.jpg": [600, 1200],
-  "/assets/diamond-black.jpg": [640, 1280],
-  "/assets/kolotiy.jpg": [640, 1280],
-  "/assets/tan-brown.jpg": [736, 1104],
-  "/assets/granit-plitka-suyuq-polirovka-a.jpg": [720, 1280],
-  "/assets/granit-butterfly.jpg": [580, 832],
-  "/assets/travertin-ilon-gul.jpg": [800, 793],
-  "/assets/travertin-paxta-gul.jpg": [1280, 853],
-  "/assets/travertin-dojdik-gul.jpg": [1280, 853],
-  "/assets/granit-kapusta.jpg": [596, 527],
-  "/assets/granit-qorabog-navbahor.jpg": [600, 600],
-  "/assets/black-marmar.jpg": [640, 1280],
-  "/assets/granit-galaxy.jpg": [719, 1280],
-  "/assets/angola-black-obj-1.jpg": [1161, 1999],
-  "/assets/angola-black-obj-2.jpg": [1144, 1999],
-  "/assets/angola-black-obj-3.jpg": [1179, 1915],
-  "/assets/granit-galaxy-obj-1.jpg": [1134, 1999],
-  "/assets/granit-galaxy-obj-2.jpg": [1138, 1999],
-};
+// Lives in imageDims.json so the local admin dashboard can update it directly.
+export const IMG_DIMS = dims as unknown as Record<string, [number, number]>;
 
 export const DEFAULT_DIMS: [number, number] = [3, 4];

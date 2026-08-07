@@ -1,0 +1,832 @@
+[
+  {
+    "id": "granit-qorabog-navbahor",
+    "name": "Kapustinsky Granite",
+    "origin": "Ukraina",
+    "type": "granit",
+    "colorFamily": "pushti",
+    "finish": [
+      "polirovka"
+    ],
+    "description": "Qizil-qora ranglarning kuchli kontrastiga ega, xarakterli granit. Diqqatni tortadigan, jasur interyer yechimlari uchun mo'ljallangan. Kichik aksent devor yoki peshtaxtada ta'sirchan ko'rinadi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "peshtaxta",
+        "fasad"
+      ],
+      "hardness": "6–7 Mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/granit-qorabog-navbahor.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/2352-370x370.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/assets/istockphoto-1196012768-612x612.jpg",
+        "caption": ""
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "granit-butterfly",
+    "name": "Aurora Granite",
+    "origin": "India",
+    "type": "granit",
+    "colorFamily": "jigarrang",
+    "finish": [
+      "polirovka"
+    ],
+    "description": "Aurora Granite — o'zining nafis kulrang, oq va qora tabiiy naqshlari bilan ajralib turadigan yuqori sifatli tabiiy granitdir. Mustahkamligi, uzoq xizmat muddati va chiroyli ko'rinishi tufayli ichki hamda tashqi bezak ishlari uchun keng qo'llaniladi. Namlik, issiqlik, tirnalish va ob-havo ta'siriga yuqori chidamliligi uni oshxona stol yuzalari, pol qoplamalari, zinapoyalar, fasadlar va yodgorliklar uchun ishonchli tanlovga aylantiradi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "peshtaxta",
+        "fasad"
+      ],
+      "hardness": "6–7 Mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/granit-butterfly.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/indianaurora-01.webp",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "gazgan-marble",
+    "name": "Gazgan Marble",
+    "origin": "Uzbekistan",
+    "type": "granit",
+    "colorFamily": "bej",
+    "finish": [
+      "polirovka"
+    ],
+    "description": "O'zbekistondan keltirilgan bej rangli marmar turi sifatida Gazgan yengil marmari odatda ichki, tashqi, qurilish toshlari, bezak toshlari va boshqalarda ishlatiladi. Gazgan yengil marmarini shuningdek, Gasgan marmar, Gasgan yengil, Gazgan sovuq deb ham atash mumkin.",
+    "specs": {
+      "thickness": "20 mm / 30mm",
+      "formats": "60xП",
+      "application": [
+        "Ichki",
+        "tashqi",
+        "qurilish toshi",
+        "bezak toshi"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/82fd1171-05f9-439a-a8fb-5ef8c12d78fa.png"
+    ],
+    "projects": [],
+    "featured": true
+  },
+  {
+    "id": "gazgan-black-marble",
+    "name": "Gazgan Black Marble",
+    "origin": "Uzbekistan",
+    "type": "granit",
+    "colorFamily": "kulrang",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Gazgan qora marmari qora rangda va O'zbekistondan keltirilgan. U ichki, tashqi, qurilish toshlari, bezak toshlari uchun ko'plab sohalarda ishlatilishi mumkin",
+    "specs": {
+      "thickness": "20mm/30mm",
+      "formats": "60xП",
+      "application": [
+        "Ichki",
+        "tashqi",
+        "qurilish toshi",
+        "bezak toshi"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/7f636bff-7e14-4435-a98c-a9b7a8332f89.png"
+    ],
+    "projects": [],
+    "featured": true
+  },
+  {
+    "id": "butterfly-granite",
+    "name": "Butterfly Granite",
+    "origin": "India",
+    "type": "granit",
+    "colorFamily": "yashil",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Butterfly Granite — qora, jigarrang va kulrang ranglarning tabiiy uyg‘unligi bilan ajralib turadigan premium tabiiy granitdir. Uning betakror naqshlari kapalak qanotini eslatgani uchun \"Butterfly\" nomi bilan mashhur. Mustahkamligi, jozibali ko‘rinishi va uzoq xizmat muddati tufayli turar joy hamda tijorat obyektlarida keng qo‘llaniladi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "stol usti",
+        "pol",
+        "fasad"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/acda646e2f591ca5524e95b3b4013ec9.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/verde-butterfly-granite-kitchen-countertop-3-1.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/assets/verde-butterfly-sink.jpg",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "r-black-granite",
+    "name": "R Black Granite",
+    "origin": "India",
+    "type": "granit",
+    "colorFamily": "qora",
+    "finish": [
+      "polirova",
+      "termo"
+    ],
+    "description": "R Black Granite - Hindistonda qazib olinadigan qora granit turi. Bu tosh, ayniqsa, tashqi - ichki devor va pol qoplamalari, yodgorliklar, stol usti, mozaika, favvoralar, basseyn va devor qoplamalari, zinapoyalar, deraza tokchalari va boshqa dizayn loyihalari uchun juda yaxshi. U shuningdek, hind qora graniti, hind Impala qora graniti deb ham ataladi. R Black Granite jilolangan, kesilgan, zımparalangan, toshga botirilgan, qum bilan qoplangan, ag'darilgan va boshqalarga qayta ishlanishi mumkin.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "Ichki devor va pol qoplamalari",
+        "stol usti",
+        "favvoralar",
+        "basseyn va devor qoplamalari",
+        "zinapoyalar",
+        "deraza tokchalari"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/r-black-granite-tile-17197-1b.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/dcea2aec7cdeaee7561478bd0de9e308.jpg",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "absolute-black",
+    "name": "Absolute Black",
+    "origin": "India",
+    "type": "granit",
+    "colorFamily": "qora",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Absolute Black Granite ning eng diqqatga sazovor xususiyati uning izchil va bir xil qora rangidir. U sof va kuchli qora tusga ega bo'lib, har qanday sezilarli o'zgarishlar yoki tomirlarsizdir. Bu bir xillik granitning nafis va nafis ko'rinishiga hissa qo'shadi va uni zamonaviy va zamonaviy dizayn uslublari uchun ajoyib tanlovga aylantiradi.",
+    "specs": {
+      "thickness": "",
+      "formats": "60xП",
+      "application": [
+        "oshxona va hammom stol usti"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/absolute-black-granite-tile-6850-1b-2.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/3f00e3a8-adfd-40ad-8f82-c66806464f4c-2.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/97a1e3ad-53a4-4d66-a463-9cca81b92821-2.png",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "angola-black-granite",
+    "name": "Angola Black Granite",
+    "origin": "Angola",
+    "type": "granit",
+    "colorFamily": "qora",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Angola qora granitining asosiy xususiyati uning boy qora rangidir. To'q qora fon har qanday makonga nafislik va nafislik hissini qo'shib, dadil va dramatik ifodani yaratadi. Angola qora granitining izchil ranglanishi uni zamonaviy va an'anaviy dizayn uslublarini to'ldiradigan ko'p qirrali tanlovga aylantiradi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "oshxona va hammom stol usti va boshqalar"
+      ],
+      "hardness": "6-8  mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/tosh.png"
+    ],
+    "projects": [
+      {
+        "image": "/assets/30b65b79-6ace-484d-893c-f1bc9f85449f.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/114ff194-533f-4e48-9cac-4b61f849e28e.png",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "black-galaxy-granit",
+    "name": "Black Galaxy Granit",
+    "origin": "India",
+    "type": "granit",
+    "colorFamily": "qora",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Yuqori mustahkamligi, namlikka chidamliligi, tirnalishga bardoshliligi va jilolangan yuzasining uzoq vaqt saqlanishi tufayli Black Galaxy ichki hamda tashqi bezak ishlari uchun juda mos keladi. U oshxona stol ustilari (countertop), pol qoplamalari, devor bezaklari, zinapoyalar, deraza tokchalari, hammom interyeri va yodgorlik mahsulotlarida keng qo‘llaniladi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad",
+        "oshxona",
+        "stol usti"
+      ],
+      "hardness": "6-8 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/hh.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/4296bb579b16785cb58b69214e6dbbdd.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/assets/f8cf2817c2fc31424df33259cf447ff6.jpg",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "black-diamond-granit",
+    "name": "Black Diamond Granit",
+    "origin": "Brazil",
+    "type": "granit",
+    "colorFamily": "qora",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Black Diamond Granite — o‘zining chuqur qora rangi va mayda kristallsimon yaltiroq donachalari bilan ajralib turadigan nafis tabiiy granitdir. Uning zamonaviy va hashamatli ko‘rinishi turar joylar, ofislar hamda tijorat binolarining ichki va tashqi bezaklarida keng qo‘llaniladi. Polirovka qilingan yuzasi yorug‘likni chiroyli aks ettirib, har qanday makonga nafislik bag‘ishlaydi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol fasad",
+        "devor",
+        "ustun"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/bll.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/d73d71fada0739aa3987f21880daadcd.webp",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "labradorite-granite",
+    "name": "Labradorite Granite",
+    "origin": "Ukraine",
+    "type": "granit",
+    "colorFamily": "qora",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Labradorite Granite nafaqat chiroyli ko‘rinishga, balki yuqori mustahkamlik, tirnalishga, issiqlikka va namlikka chidamlilik kabi afzalliklarga ham ega. U oshxona stol ustilari, pol qoplamalari, devor panellari, zinapoyalar, hammom interyeri va dekorativ elementlar uchun ideal tanlov hisoblanadi. Polirovka qilingan yuzasi tabiiy kristallarning yorqinligini yanada kuchli namoyon etadi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/volga-blue-granite-tile-3089-1b.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/a9f6ab4b7d3afdede1095e72b4898a04.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/assets/volga-blue-granite-finished-product-3089-6b.jpg",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "tan-brown",
+    "name": "Tan Brown",
+    "origin": "India",
+    "type": "granit",
+    "colorFamily": "jigarrang",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Yuqori zichlikka ega bo‘lgan Tan Brown Granite tirnalish, issiqlik, namlik va kundalik foydalanishga juda chidamli. Polirovka qilingan yuzasi tabiiy ranglarini yanada yorqin namoyon etadi va uzoq yillar davomida o‘z jilosini saqlab qoladi. Shu sababli u oshxona stol ustilari, pol qoplamalari, zinapoyalar, devor panellari va tashqi fasad ishlari uchun keng qo‘llaniladi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/tan-brown-2.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/tan-brown-kk.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/assets/tan-brown-dd.jpg",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "raja-green-marble",
+    "name": "Raja Green Marble",
+    "origin": "India",
+    "type": "granit",
+    "colorFamily": "kulrang",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Raja Green Marble silliqlangan yuzasida tabiiy tomirlari yanada yorqin ko‘rinadi va har bir plitaga o‘ziga xos ko‘rinish bag‘ishlaydi. U devor qoplamalari, pol, zinapoyalar, ustunlar, dekorativ panellar, hammom va mehmonxona interyerlari kabi ko‘plab bezak ishlarida keng qo‘llaniladi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad",
+        "stol usti"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/raja-green-marble.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/raja-green-marble-kk.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/assets/raja-green-marble-gg.jpg",
+        "caption": ""
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "himalaya-blue",
+    "name": "Himalaya Blue",
+    "origin": "India",
+    "type": "granit",
+    "colorFamily": "jigarrang",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Ushbu granit oshxona stol yuzalari, orol stollari (kitchen island), zinapoyalar, pol qoplamalari, devor bezaklari, fasadlar va boshqa dekorativ elementlarda keng qo‘llaniladi. O‘ziga xos tabiiy naqshlari sababli har bir plita takrorlanmas ko‘rinishga ega bo‘lib, zamonaviy hamda klassik interyerlarga hashamatli ko‘rinish beradi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad",
+        "zinapoya",
+        "stol usti"
+      ],
+      "hardness": "6-8 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/bog.png"
+    ],
+    "projects": [
+      {
+        "image": "/assets/bog-2.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/bog12.png",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "pash-shot-granite",
+    "name": "Pash-shot Granite",
+    "origin": "Uzbekistan",
+    "type": "granit",
+    "colorFamily": "kulrang",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Pashshot Granite ichki va tashqi bezak ishlari uchun mos bo'lib, pol qoplamalari, zinapoyalar, fasadlar, oshxona stol ustilari, deraza tokchalari, yodgorliklar va boshqa qurilish elementlarini tayyorlashda keng foydalaniladi. Uning tabiiy kulrang rangi turli interyer va eksteryer uslublari bilan oson uyg'unlashadi hamda uzoq yillar davomida o'zining estetik ko'rinishini saqlab qoladi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad",
+        "oshxona",
+        "stol usti"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/pashot.png"
+    ],
+    "projects": [
+      {
+        "image": "/assets/pashot12.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/pashot23.png",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "kuksaroy-grey",
+    "name": "Kuksaroy Grey",
+    "origin": "Uzbekistan",
+    "type": "granit",
+    "colorFamily": "kulrang",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Kuksaroy Grey Granite namlik, sovuq, issiqlik, quyosh nurlari va mexanik ta'sirlarga yuqori darajada chidamli bo'lgani sababli ichki hamda tashqi bezak ishlarida keng qo'llaniladi. U uzoq xizmat muddati, oson parvarishi va tabiiy ko'rinishini yillar davomida saqlab qolishi bilan ajralib turadi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad",
+        "zinapoya"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/koksaroy44.webp"
+    ],
+    "projects": [
+      {
+        "image": "/assets/koksaroy.webp",
+        "caption": ""
+      },
+      {
+        "image": "/assets/koksaroy12.webp",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "kuksaroy-pink",
+    "name": "Kuksaroy Pink",
+    "origin": "Uzbekistan",
+    "type": "granit",
+    "colorFamily": "pushti",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Kuksaroy Pink Granite zinapoyalar, fasad qoplamalari, pol va devor bezaklari, yodgorliklar, parapetlar, deraza tokchalari, ustunlar hamda landshaft elementlarini tayyorlashda keng qo‘llanadi. Uzoq xizmat muddati, aşinishga bardoshliligi va parvarishining osonligi tufayli turar joy, ofis va jamoat binolari uchun ishonchli tanlov hisoblanadi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad",
+        "zinapoya"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/kuksaroy-pink.png"
+    ],
+    "projects": [
+      {
+        "image": "/assets/kuksaroy-pink-43.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/kuksaroy-pink12.png",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "korabog-granite",
+    "name": "Korabog Granite",
+    "origin": "Uzbekistan",
+    "type": "granit",
+    "colorFamily": "kulrang",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Korabog Granite fasad qoplamalari, pol va devor bezaklari, zinapoyalar, deraza tokchalari, ustunlar, parapetlar, yodgorliklar hamda landshaft dizayni elementlarini tayyorlash uchun juda mos material hisoblanadi. Uning aşinishga chidamliligi, namlikni kam singdirishi va uzoq xizmat muddati uni turar joy, ofis, savdo markazlari va jamoat binolari uchun ishonchli tanlovga aylantiradi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "pas"
+    },
+    "images": [
+      "/assets/korabog-granit.png"
+    ],
+    "projects": [
+      {
+        "image": "/assets/korabog-21.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/korabog32.png",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "navbahor-granite",
+    "name": "Navbahor Granite",
+    "origin": "Uzbekistan",
+    "type": "granit",
+    "colorFamily": "jigarrang",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Navbahor Granite ob-havo ta'siriga, namlikka, sovuq va issiqlik o‘zgarishlariga yuqori darajada bardoshli. Shu sababli u ichki va tashqi qurilish ishlari uchun keng qo‘llaniladi. Zinapoyalar, fasad qoplamalari, pollar, yo‘laklar, yodgorliklar, ustunlar, deraza tokchalari hamda landshaft elementlari uchun ishonchli tanlov hisoblanadi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad",
+        "zinapoya",
+        "stol usti"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/navbahor.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/navbahor23.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/navbahor34.png",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "suvliq-granit",
+    "name": "Suvliq Granit",
+    "origin": "Uzbekistan",
+    "type": "granit",
+    "colorFamily": "kulrang",
+    "finish": [
+      "polirovka termo"
+    ],
+    "description": "Suvliq Granite aşınishga, zarbalarga, namlikka va harorat o‘zgarishlariga yuqori darajada chidamli. Shu sababli u intensiv foydalaniladigan ichki va tashqi maydonlarda uzoq yillar davomida o‘z sifatini saqlab qoladi. Polirovka qilingan yuzasi nafis yaltiroq ko‘rinishga ega bo‘lsa, termik yoki silliqlangan ishlov berilgan variantlari sirpanishga qarshi xususiyatga ega.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/suvriq.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/suvriq-32.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/suvriq-31232.png",
+        "caption": ""
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "zarband-marble-granit",
+    "name": "Zarband Marble Granit",
+    "origin": "Uzbekistan",
+    "type": "granit",
+    "colorFamily": "oq",
+    "finish": [
+      "plirovka",
+      "termo"
+    ],
+    "description": "Yuqori estetik qiymati tufayli pol qoplamalari, devor bezaklari, zinapoyalar, deraza tokchalari, ustunlar, kamin qoplamalari, resepshn zonalari va dekorativ interyer elementlari uchun juda mos keladi. To‘g‘ri parvarish qilinganda o‘zining jozibador ko‘rinishini uzoq yillar davomida saqlab qoladi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad",
+        "zinapoya",
+        "stol usti"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/232729614-mramor-zarband-uzbekistan.webp"
+    ],
+    "projects": [
+      {
+        "image": "/assets/ssas.webp",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "iran-anor-granit",
+    "name": "Iran Anor Granit",
+    "origin": "Iran",
+    "type": "granit",
+    "colorFamily": "pushti",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Bu granit yuqori bosim va ob-havo ta'siriga yaxshi bardosh beradi. Polirovka qilinganda yuzasi yorqin jiloga ega bo‘lib, tabiiy ranglari yanada chuqur va jozibali ko‘rinadi. Shuningdek, termik, honed yoki bush-hammered ishlovlarda ham tayyorlanishi mumkin.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad",
+        "zinapoya",
+        "stol usti"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/iran-red-travertine-tile-4386-1b.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/f62b0c39-e568-4c3a-8057-b3ba7a87d6c0.jpg",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "iran-marble-granite",
+    "name": "Iran Marble Granite",
+    "origin": "Iran",
+    "type": "granit",
+    "colorFamily": "oq",
+    "finish": [
+      "polirovka"
+    ],
+    "description": "Yuqori estetik qiymati va mustahkamligi tufayli mehmonxonalar, villalar, ofislar, savdo markazlari va turar joylar ichki bezaklarida keng qo‘llaniladi. Polirovka qilingan yuzasi marmarning tabiiy naqshlarini yanada yorqin namoyon etib, interyerga hashamatli ko‘rinish bag‘ishlaydi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad",
+        "zinapoya",
+        "stol usti"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/salomm.jpg"
+    ],
+    "projects": [],
+    "featured": true
+  },
+  {
+    "id": "iran-onyx-slab-granit",
+    "name": "Iran Onyx Slab Granit",
+    "origin": "Iran",
+    "type": "granit",
+    "colorFamily": "oq",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Bu oniks slablari asosan yuqori darajadagi mehmonxonalar, villalar, restoranlar, ofislar va hashamatli turar joylarning ichki bezaklarida qo‘llaniladi. Har bir slab o‘ziga xos tabiiy naqsh va rangga ega bo‘lgani sababli takrorlanmas ko‘rinishga ega.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad",
+        "zinapoya",
+        "stol usti"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/121211221.jpg"
+    ],
+    "projects": [],
+    "featured": true
+  }
+]

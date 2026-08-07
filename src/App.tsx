@@ -1,6 +1,7 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { CatalogPage } from "./components/CatalogPage";
 import { DetailPage } from "./components/DetailPage";
+import { AdminPage } from "./admin/AdminPage";
 
 export default function App() {
   return (
@@ -8,6 +9,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<CatalogPage />} />
         <Route path="/tosh/:id" element={<DetailPage />} />
+        {/* TEMPORARY — remove this route (and src/admin/) once you're done editing products */}
+        <Route path="/admin" element={<AdminPage />} />
         <Route path="*" element={<CatalogPage />} />
       </Routes>
       <footer className="site-foot">
