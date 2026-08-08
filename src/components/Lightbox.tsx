@@ -1,4 +1,6 @@
 import { useEffect, useRef } from "react";
+import { useLang } from "../i18n/LanguageContext";
+import { UI } from "../i18n/ui";
 
 interface LightboxImage {
   src: string;
@@ -33,6 +35,8 @@ function ChevronIcon({ direction }: { direction: "left" | "right" }) {
 export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
   const touchX = useRef<number | null>(null);
   const current = images[index];
+  const { lang } = useLang();
+  const strings = UI[lang];
 
   const go = (next: number) => {
     onIndexChange((next + images.length) % images.length);
@@ -58,7 +62,7 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
 
   return (
     <div className="lightbox" role="dialog" aria-modal="true" onClick={onClose}>
-      <button type="button" className="lightbox-close" aria-label="Yopish" onClick={onClose}>
+      <button type="button" className="lightbox-close" aria-label={strings.lightboxClose} onClick={onClose}>
         <CloseIcon />
       </button>
 
@@ -83,7 +87,7 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
           <button
             type="button"
             className="lightbox-arrow lightbox-arrow-prev"
-            aria-label="Oldingi rasm"
+            aria-label={strings.lightboxPrev}
             onClick={(e) => {
               e.stopPropagation();
               go(index - 1);
@@ -94,7 +98,7 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
           <button
             type="button"
             className="lightbox-arrow lightbox-arrow-next"
-            aria-label="Keyingi rasm"
+            aria-label={strings.lightboxNext}
             onClick={(e) => {
               e.stopPropagation();
               go(index + 1);
@@ -112,7 +116,7 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
           {images.map((_, i) => (
             <button
               key={i}
-              aria-label={`Rasm ${i + 1}`}
+              aria-label={strings.lightboxImageLabel(i + 1)}
               aria-current={i === index}
               className={i === index ? "dot dot-active" : "dot"}
               onClick={() => onIndexChange(i)}

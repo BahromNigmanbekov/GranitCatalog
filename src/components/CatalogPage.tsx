@@ -3,7 +3,10 @@ import { STONES } from "../data/stones";
 import { normalize } from "../utils/normalize";
 import { useDebouncedValue } from "../hooks/useDebouncedValue";
 import { consumeCatalogScroll } from "../utils/scrollMemory";
+import { useLang } from "../i18n/LanguageContext";
+import { UI } from "../i18n/ui";
 import { SearchBar } from "./SearchBar";
+import { LanguageSelect } from "./LanguageSelect";
 import { StoneCard } from "./StoneCard";
 
 const PAGE_SIZE = 12;
@@ -11,6 +14,8 @@ const PAGE_SIZE = 12;
 export function CatalogPage() {
   const [query, setQuery] = useState("");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const { lang } = useLang();
+  const strings = UI[lang];
 
   const debouncedQuery = useDebouncedValue(query, 150);
 
@@ -33,27 +38,30 @@ export function CatalogPage() {
     <>
       <header className="site-head">
         <div className="wrap">
-          <p className="eyebrow">QR-katalog</p>
-          <h1 className="site-title">Tabiiy tosh katalogi</h1>
-          <p className="site-count">{filtered.length} ta tosh</p>
+          <p className="eyebrow">{strings.eyebrow}</p>
+          <h1 className="site-title">{strings.siteTitle}</h1>
+          <p className="site-count">{strings.countSuffix(filtered.length)}</p>
 
-          <SearchBar
-            value={query}
-            onChange={(v) => {
-              setQuery(v);
-              setVisibleCount(PAGE_SIZE);
-            }}
-          />
+          <div className="controls-row">
+            <SearchBar
+              value={query}
+              onChange={(v) => {
+                setQuery(v);
+                setVisibleCount(PAGE_SIZE);
+              }}
+            />
+            <LanguageSelect />
+          </div>
         </div>
       </header>
 
       <main className="wrap">
         {filtered.length === 0 ? (
           <div className="empty-state">
-            <h2>Hech narsa topilmadi</h2>
-            <p>Boshqa nom bilan qidiring.</p>
+            <h2>{strings.emptyTitle}</h2>
+            <p>{strings.emptyText}</p>
             <button type="button" className="btn-primary" onClick={() => setQuery("")}>
-              Tozalash
+              {strings.clearButton}
             </button>
           </div>
         ) : (
@@ -70,7 +78,7 @@ export function CatalogPage() {
                   className="btn-primary"
                   onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
                 >
-                  Yana yuklash
+                  {strings.loadMore}
                 </button>
               </div>
             )}

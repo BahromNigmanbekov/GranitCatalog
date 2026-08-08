@@ -1,23 +1,23 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { STONES, TYPE_LABELS, type StoneSpecs } from "../data/stones";
+import { STONES } from "../data/stones";
+import { useLang } from "../i18n/LanguageContext";
+import { UI } from "../i18n/ui";
+import { localizeStone, type LocalizedStone } from "../i18n/localize";
 import { Gallery } from "./Gallery";
 import { StoneCard } from "./StoneCard";
 import { StoneImage } from "./StoneImage";
 import { Lightbox } from "./Lightbox";
 
-const SPEC_LABELS: Record<keyof StoneSpecs, string> = {
-  thickness: "Qalinlik",
-  formats: "Formatlar",
-  application: "Qo'llanilishi",
-  hardness: "Qattiqlik",
-  absorption: "Namlik shimish",
-};
+type SpecKey = keyof LocalizedStone["specs"];
+const SPEC_KEYS: SpecKey[] = ["thickness", "formats", "application", "hardness", "absorption"];
 
 export function DetailPage() {
   const { id } = useParams<{ id: string }>();
   const stone = STONES.find((s) => s.id === id);
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+  const { lang } = useLang();
+  const strings = UI[lang];
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -27,14 +27,24 @@ export function DetailPage() {
   if (!stone) {
     return (
       <main className="wrap detail">
-        <Link to="/" className="back-link">← Katalog</Link>
+        <Link to="/" className="back-link">{strings.backToCatalog}</Link>
         <div className="empty-state">
-          <h2>Tosh topilmadi</h2>
-          <p>Havola noto'g'ri bo'lishi mumkin.</p>
+          <h2>{strings.notFoundTitle}</h2>
+          <p>{strings.notFoundText}</p>
         </div>
       </main>
     );
   }
+
+  const localized = localizeStone(stone, lang);
+
+  const specLabels: Record<SpecKey, string> = {
+    thickness: strings.specThickness,
+    formats: strings.specFormats,
+    application: strings.specApplication,
+    hardness: strings.specHardness,
+    absorption: strings.specAbsorption,
+  };
 
   const similar = STONES.filter(
     (s) => s.id !== stone.id && (s.type === stone.type || s.colorFamily === stone.colorFamily)
@@ -42,52 +52,53 @@ export function DetailPage() {
 
   return (
     <main className="wrap detail">
-      <Link to="/" className="back-link">← Katalog</Link>
+      <Link to="/" className="back-link">{strings.backToCatalog}</Link>
 
-      <Gallery images={stone.images} alt={stone.name} />
+      <Gallery images={localized.images} alt={localized.name} />
 
       <div className="detail-head">
-        <p className="detail-type">{TYPE_LABELS[stone.type]}</p>
-        <h1 className="detail-name">{stone.name}</h1>
-        <p className="detail-origin">{stone.origin}</p>
+        <p className="detail-type">{localized.typeLabel}</p>
+        <h1 className="detail-name">{localized.name}</h1>
+        <p className="detail-origin">{localized.origin}</p>
       </div>
 
-      {stone.finish.length > 0 && (
+      {localized.finish.length > 0 && (
         <div className="finish-tags">
-          {stone.finish.map((f) => (
-            <span className="finish-tag" key={f}>{f}</span>
+          {localized.finish.map((f, i) => (
+            <span className="finish-tag" key={i}>{f}</span>
           ))}
         </div>
       )}
 
-      <p className="detail-desc">{stone.description}</p>
+      <p className="detail-desc">{localized.description}</p>
 
-      <h2 className="section-title">Texnik ma'lumot</h2>
+      <h2 className="section-title">{strings.techInfoTitle}</h2>
       <dl className="spec-list">
-        {(Object.keys(SPEC_LABELS) as (keyof StoneSpecs)[]).map((key) => {
-          const value = stone.specs[key];
+        {SPEC_KEYS.map((key) => {
+          const value = localized.specs[key];
+          if (!value || (Array.isArray(value) && value.length === 0)) return null;
           return (
             <div className="spec-row" key={key}>
-              <dt>{SPEC_LABELS[key]}</dt>
+              <dt>{specLabels[key]}</dt>
               <dd>{Array.isArray(value) ? value.join(", ") : value}</dd>
             </div>
           );
         })}
       </dl>
 
-      <h2 className="section-title">Tugallangan ishlar</h2>
-      {stone.projects.length > 0 ? (
+      <h2 className="section-title">{strings.completedWorksTitle}</h2>
+      {localized.projects.length > 0 ? (
         <div className="grid">
-          {stone.projects.map((p, i) => (
+          {localized.projects.map((p, i) => (
             <button
               type="button"
               className="card project-card"
               key={i}
               onClick={() => setLightboxIndex(i)}
-              aria-label={`Kattalashtirish: ${p.caption || stone.name}`}
+              aria-label={strings.zoomAriaLabel(p.caption || localized.name)}
             >
               <div className="card-thumb">
-                <StoneImage src={p.image} alt={p.caption || stone.name} className="card-img" />
+                <StoneImage src={p.image} alt={p.caption || localized.name} className="card-img" />
                 <span className="project-zoom-hint" aria-hidden="true">⤢</span>
               </div>
               <p className="card-name">{p.caption}</p>
@@ -95,12 +106,12 @@ export function DetailPage() {
           ))}
         </div>
       ) : (
-        <p className="projects-note">Bu tosh bilan bajarilgan ishlar tez orada shu yerga qo'shiladi.</p>
+        <p className="projects-note">{strings.completedWorksEmpty}</p>
       )}
 
       {lightboxIndex !== null && (
         <Lightbox
-          images={stone.projects.map((p) => ({ src: p.image, alt: p.caption || stone.name, caption: p.caption }))}
+          images={localized.projects.map((p) => ({ src: p.image, alt: p.caption || localized.name, caption: p.caption }))}
           index={lightboxIndex}
           onClose={() => setLightboxIndex(null)}
           onIndexChange={setLightboxIndex}
@@ -109,7 +120,7 @@ export function DetailPage() {
 
       {similar.length > 0 && (
         <>
-          <h2 className="section-title">O'xshash toshlar</h2>
+          <h2 className="section-title">{strings.similarStonesTitle}</h2>
           <div className="grid">
             {similar.map((s) => (
               <StoneCard key={s.id} stone={s} />

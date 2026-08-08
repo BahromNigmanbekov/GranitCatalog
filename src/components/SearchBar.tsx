@@ -1,9 +1,15 @@
+import { useLang } from "../i18n/LanguageContext";
+import { UI } from "../i18n/ui";
+
 interface Props {
   value: string;
   onChange: (value: string) => void;
 }
 
 export function SearchBar({ value, onChange }: Props) {
+  const { lang } = useLang();
+  const strings = UI[lang];
+
   return (
     <div className="search-bar">
       <svg
@@ -20,8 +26,8 @@ export function SearchBar({ value, onChange }: Props) {
       <input
         type="search"
         className="search-input"
-        placeholder="Tosh nomini qidiring..."
-        aria-label="Nomi bo'yicha qidirish"
+        placeholder={strings.searchPlaceholder}
+        aria-label={strings.searchAriaLabel}
         value={value}
         onChange={(e) => onChange(e.target.value)}
       />
@@ -29,7 +35,7 @@ export function SearchBar({ value, onChange }: Props) {
         <button
           type="button"
           className="search-clear"
-          aria-label="Qidiruvni tozalash"
+          aria-label={strings.clearSearchAriaLabel}
           onClick={() => onChange("")}
         >
           ×

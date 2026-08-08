@@ -1,5 +1,7 @@
 import { useRef, useState } from "react";
 import { StoneImage } from "./StoneImage";
+import { useLang } from "../i18n/LanguageContext";
+import { UI } from "../i18n/ui";
 
 interface Props {
   images: string[];
@@ -9,6 +11,8 @@ interface Props {
 export function Gallery({ images, alt }: Props) {
   const [index, setIndex] = useState(0);
   const touchX = useRef<number | null>(null);
+  const { lang } = useLang();
+  const strings = UI[lang];
 
   const go = (next: number) => {
     setIndex((next + images.length) % images.length);
@@ -37,13 +41,13 @@ export function Gallery({ images, alt }: Props) {
 
       {images.length > 1 && (
         <>
-          <button className="gallery-nav prev" aria-label="Oldingi rasm" onClick={() => go(index - 1)} />
-          <button className="gallery-nav next" aria-label="Keyingi rasm" onClick={() => go(index + 1)} />
+          <button className="gallery-nav prev" aria-label={strings.lightboxPrev} onClick={() => go(index - 1)} />
+          <button className="gallery-nav next" aria-label={strings.lightboxNext} onClick={() => go(index + 1)} />
           <div className="gallery-dots">
             {images.map((_, i) => (
               <button
                 key={i}
-                aria-label={`Rasm ${i + 1}`}
+                aria-label={strings.lightboxImageLabel(i + 1)}
                 aria-current={i === index}
                 className={i === index ? "dot dot-active" : "dot"}
                 onClick={() => go(i)}

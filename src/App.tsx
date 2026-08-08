@@ -2,6 +2,17 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import { CatalogPage } from "./components/CatalogPage";
 import { DetailPage } from "./components/DetailPage";
 import { AdminPage } from "./admin/AdminPage";
+import { useLang } from "./i18n/LanguageContext";
+import { UI } from "./i18n/ui";
+
+function Footer() {
+  const { lang } = useLang();
+  return (
+    <footer className="site-foot">
+      <div className="wrap">{UI[lang].footerNote}</div>
+    </footer>
+  );
+}
 
 export default function App() {
   return (
@@ -13,11 +24,7 @@ export default function App() {
         <Route path="/admin" element={<AdminPage />} />
         <Route path="*" element={<CatalogPage />} />
       </Routes>
-      <footer className="site-foot">
-        <div className="wrap">
-          Barcha toshlar do'konda mavjud. Namuna rangi ekranga qarab ozgina farq qilishi mumkin.
-        </div>
-      </footer>
+      <Footer />
     </HashRouter>
   );
 }
