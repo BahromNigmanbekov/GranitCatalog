@@ -80,6 +80,31 @@ body {
   padding-bottom: 16px;
   background: var(--bg);
 }
+.site-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+.site-logo {
+  display: block;
+  height: 26px;
+  width: auto;
+}
+@media (min-width: 640px) {
+  .site-logo {
+    height: 34px;
+  }
+}
+@media (min-width: 960px) {
+  .site-logo {
+    height: 40px;
+  }
+}
+
 .eyebrow {
   font-size: 11px;
   letter-spacing: 0.14em;

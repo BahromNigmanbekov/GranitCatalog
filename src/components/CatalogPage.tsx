@@ -38,6 +38,17 @@ export function CatalogPage() {
     <>
       <header className="site-head">
         <div className="wrap">
+          <div className="site-topbar">
+            <img
+              className="site-logo"
+              src="/assets/logo-marmar-standart.png"
+              alt="Marmar Standart"
+              width={379}
+              height={109}
+            />
+            <LanguageSelect />
+          </div>
+
           <p className="eyebrow">{strings.eyebrow}</p>
           <h1 className="site-title">{strings.siteTitle}</h1>
           <p className="site-count">{strings.countSuffix(filtered.length)}</p>
@@ -50,7 +61,6 @@ export function CatalogPage() {
                 setVisibleCount(PAGE_SIZE);
               }}
             />
-            <LanguageSelect />
           </div>
         </div>
       </header>
