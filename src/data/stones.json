@@ -132,15 +132,15 @@
   },
   {
     "id": "gazgan-black-marble",
-    "name": "Gazgan Black Marble",
+    "name": "Gazgan Black Marbale",
     "origin": "Uzbekistan",
     "type": "granit",
-    "colorFamily": "kulrang",
+    "colorFamily": "qora",
     "finish": [
       "polirovka",
       "termo"
     ],
-    "description": "Gazgan qora marmari qora rangda va O'zbekistondan keltirilgan. U ichki, tashqi, qurilish toshlari, bezak toshlari uchun ko'plab sohalarda ishlatilishi mumkin",
+    "description": "Gazgan Black Marble — O‘zbekistonda qazib olinadigan tabiiy marmar bo‘lib, chuqur to‘q ko‘k-qora / antrasit asosiy fon rangi bilan ajralib turadi. Marmar yuzasida gorizontal yo‘nalishda tarqalgan nozik kulrang va ko‘kimtir qatlamlar, ayrim joylarda esa tabiiy och kulrang mineral hosilalar ko‘rinadi.\n\nUshbu marmarning o‘ziga xos qatlamli va sokin teksturasi unga zamonaviy, jiddiy va premium ko‘rinish beradi. Polirovka qilinganda yuzasi chuqurroq tusga kirib, tabiiy naqshlari va mayin mineral chiziqlari yanada aniq ko‘rinadi.",
     "specs": {
       "thickness": "20mm/30mm",
       "formats": "60xП",
@@ -154,23 +154,23 @@
       "absorption": "past"
     },
     "images": [
-      "/assets/7f636bff-7e14-4435-a98c-a9b7a8332f89.png"
+      "/assets/blll.jpg"
     ],
     "projects": [
       {
-        "image": "/assets/940500e7-6884-4389-8292-999168771b29.png",
+        "image": "/assets/88969989-ea94-48aa-8353-b7918cad9ce6.png",
         "caption": ""
       },
       {
-        "image": "/assets/a3f2fa81-64b2-4100-a92c-1cbfeba6b7d2.png",
+        "image": "/assets/08f05611-1c8b-4036-8261-f3b9038c95b3.png",
         "caption": ""
       },
       {
-        "image": "/assets/8a6f9314-8dc2-4a6d-9b45-12461578304b.png",
+        "image": "/assets/bae5e01c-d4bc-4b40-adf8-739eae94420f.png",
         "caption": ""
       },
       {
-        "image": "/assets/cb26e213-1f94-44c3-8dc0-087dfb216eca.png",
+        "image": "/assets/f9c909b2-1333-4d6b-996d-1f68f4297ac6.png",
         "caption": ""
       }
     ],
@@ -409,7 +409,7 @@
       "absorption": "past"
     },
     "images": [
-      "/assets/tan-brown-granit.jpg"
+      "/assets/dd.jpg"
     ],
     "projects": [
       {
@@ -577,7 +577,7 @@
       "absorption": "pas"
     },
     "images": [
-      "/assets/korabog-grranit.jpg"
+      "/assets/photo-2026-08-14-18-11-24.jpg"
     ],
     "projects": [
       {
@@ -590,6 +590,10 @@
       },
       {
         "image": "/assets/935d4c4c-3638-4ce5-a036-ef45a208989c.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/35c30f88-f0fb-4bef-b153-7cc1e1d20791-1.png",
         "caption": ""
       }
     ],
@@ -1021,6 +1025,94 @@
       },
       {
         "image": "/assets/galexy1.jpg",
+        "caption": ""
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "tanbrown-black-slab",
+    "name": "Tanbrown Black Slab",
+    "origin": "India",
+    "type": "granit",
+    "colorFamily": "jigarrang",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Tan Brown Black Slab — jigarrang, qora va mayda oltinrang kristallarning uyg‘unligi bilan ajralib turadigan tabiiy granit turi. Uning zich va mustahkam tuzilishi, chiroyli tabiiy teksturasi hamda yuqori chidamliligi uni zamonaviy va klassik interyerlar uchun mos materialga aylantiradi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/fasaddddddd-2.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/6137914b-7506-4d3f-9800-9cc2fc5b0ef7.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/4dad6c6b-d9e8-49ae-9436-1641bda6ed30.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/a26cd06a-487a-4287-a2ba-b7131c09d0c6.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/d63f116a-c20b-4e1a-840f-c012f03145c6.png",
+        "caption": ""
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "gazgon-tabiiy-korkasi",
+    "name": "G’azg’on Tabiiy Ko’rkasi",
+    "origin": "Uzbekistan",
+    "type": "granit",
+    "colorFamily": "jigarrang",
+    "finish": [
+      "termo",
+      "burchakli"
+    ],
+    "description": "G‘azg‘on Tabiiy Ko‘rkasi — O‘zbekistonning mashhur G‘azg‘on hududidan olinadigan tabiiy tosh bo‘lib, o‘zining tabiiy rang uyg‘unligi, mayin mineral teksturasi va o‘ziga xos naqshi bilan ajralib turadi. Tosh yuzasidagi tabiiy qatlamlar va ranglarning bir-biriga uyg‘un o‘tishi unga nafis va tabiiy ko‘rinish beradi.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "fasad",
+        "dekoratsiya"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/photo-2026-08-14-18-08-44.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/pnd-1770-2.webp",
+        "caption": ""
+      },
+      {
+        "image": "/assets/pnd-1770-3.webp",
+        "caption": ""
+      },
+      {
+        "image": "/assets/ambiente-st14bz.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/assets/photo-2026-08-14-18-48-25.jpg",
         "caption": ""
       }
     ],

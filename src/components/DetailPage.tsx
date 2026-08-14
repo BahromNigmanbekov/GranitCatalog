@@ -8,6 +8,7 @@ import { Gallery } from "./Gallery";
 import { StoneCard } from "./StoneCard";
 import { StoneImage } from "./StoneImage";
 import { Lightbox } from "./Lightbox";
+import { LanguageSelect } from "./LanguageSelect";
 
 type SpecKey = keyof LocalizedStone["specs"];
 const SPEC_KEYS: SpecKey[] = ["thickness", "formats", "application", "hardness", "absorption"];
@@ -27,7 +28,10 @@ export function DetailPage() {
   if (!stone) {
     return (
       <main className="wrap detail">
-        <Link to="/" className="back-link">{strings.backToCatalog}</Link>
+        <div className="detail-topbar">
+          <Link to="/" className="back-link">{strings.backToCatalog}</Link>
+          <LanguageSelect />
+        </div>
         <div className="empty-state">
           <h2>{strings.notFoundTitle}</h2>
           <p>{strings.notFoundText}</p>
@@ -52,7 +56,10 @@ export function DetailPage() {
 
   return (
     <main className="wrap detail">
-      <Link to="/" className="back-link">{strings.backToCatalog}</Link>
+      <div className="detail-topbar">
+        <Link to="/" className="back-link">{strings.backToCatalog}</Link>
+        <LanguageSelect />
+      </div>
 
       <Gallery images={localized.images} alt={localized.name} />
 

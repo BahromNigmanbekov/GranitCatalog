@@ -389,6 +389,13 @@ main {
   padding-top: 20px;
   padding-bottom: 48px;
 }
+.detail-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
 .back-link {
   display: inline-flex;
   align-items: center;
@@ -396,7 +403,6 @@ main {
   min-height: 44px;
   color: var(--text-muted);
   font-size: 14px;
-  margin-bottom: 12px;
 }
 .back-link:hover {
   color: var(--text);

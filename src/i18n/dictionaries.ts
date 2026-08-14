@@ -64,6 +64,7 @@ const FINISH_DICT: Record<string, ByLang> = {
   "kolotiy": { uz: "kolotiy", ru: "колотый", en: "split-face" },
   "suyuq polirovka": { uz: "suyuq polirovka", ru: "глянцевая полировка", en: "high-gloss polish" },
   "silliqlangan": { uz: "silliqlangan", ru: "шлифованный", en: "honed" },
+  "burchakli": { uz: "burchakli", ru: "гранёный", en: "faceted" },
 };
 
 const THICKNESS_DICT: Record<string, ByLang> = {
@@ -148,6 +149,7 @@ const APPLICATION_DICT: Record<string, ByLang> = {
   },
   "hovli": { uz: "hovli", ru: "двор", en: "yard" },
   "termo": { uz: "termo", ru: "термообработка", en: "flamed finish" },
+  "dekoratsiya": { uz: "dekoratsiya", ru: "декор", en: "decoration" },
 };
 
 export function translateOrigin(raw: string, lang: Lang): string {
