@@ -32,11 +32,11 @@
         "caption": ""
       },
       {
-        "image": "/assets/kapusta.webp",
+        "image": "/assets/kapusta.jpg",
         "caption": ""
       },
       {
-        "image": "/assets/kapusta.jpg",
+        "image": "/assets/photo-2026-08-14-14-48-11.jpg",
         "caption": ""
       }
     ],
@@ -65,7 +65,24 @@
     "images": [
       "/assets/aurora.jpg"
     ],
-    "projects": [],
+    "projects": [
+      {
+        "image": "/assets/12.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/assets/dd.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/ds.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/dfgfgf.png",
+        "caption": ""
+      }
+    ],
     "featured": true
   },
   {
@@ -93,7 +110,24 @@
     "images": [
       "/assets/82fd1171-05f9-439a-a8fb-5ef8c12d78fa.png"
     ],
-    "projects": [],
+    "projects": [
+      {
+        "image": "/assets/house.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/ssss.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/ce88a78a-9e32-46e9-ac59-f785301e9c8b.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/ddd.png",
+        "caption": ""
+      }
+    ],
     "featured": true
   },
   {
@@ -122,7 +156,24 @@
     "images": [
       "/assets/7f636bff-7e14-4435-a98c-a9b7a8332f89.png"
     ],
-    "projects": [],
+    "projects": [
+      {
+        "image": "/assets/940500e7-6884-4389-8292-999168771b29.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/a3f2fa81-64b2-4100-a92c-1cbfeba6b7d2.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/8a6f9314-8dc2-4a6d-9b45-12461578304b.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/cb26e213-1f94-44c3-8dc0-087dfb216eca.png",
+        "caption": ""
+      }
+    ],
     "featured": true
   },
   {
@@ -157,6 +208,14 @@
       {
         "image": "/assets/dcea2aec7cdeaee7561478bd0de9e308.jpg",
         "caption": ""
+      },
+      {
+        "image": "/assets/34e59b29-2a65-4672-bf56-18285530da7f.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/e384b1a6-7aed-405d-80a5-19da68c725cf.png",
+        "caption": ""
       }
     ],
     "featured": true
@@ -187,6 +246,14 @@
     "projects": [
       {
         "image": "/assets/3f00e3a8-adfd-40ad-8f82-c66806464f4c-2.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/4412bd8e-4be4-469c-9835-3521bb1d31e1.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/images-1.jpg",
         "caption": ""
       }
     ],
@@ -232,48 +299,6 @@
     "featured": true
   },
   {
-    "id": "black-galaxy-granit",
-    "name": "Black Galaxy Granit",
-    "origin": "India",
-    "type": "granit",
-    "colorFamily": "qora",
-    "finish": [
-      "polirovka",
-      "termo"
-    ],
-    "description": "Yuqori mustahkamligi, namlikka chidamliligi, tirnalishga bardoshliligi va jilolangan yuzasining uzoq vaqt saqlanishi tufayli Black Galaxy ichki hamda tashqi bezak ishlari uchun juda mos keladi. U oshxona stol ustilari (countertop), pol qoplamalari, devor bezaklari, zinapoyalar, deraza tokchalari, hammom interyeri va yodgorlik mahsulotlarida keng qo‘llaniladi.",
-    "specs": {
-      "thickness": "belgilanmagan",
-      "formats": "60xП",
-      "application": [
-        "pol",
-        "fasad",
-        "oshxona",
-        "stol usti"
-      ],
-      "hardness": "6-8 mos",
-      "absorption": "past"
-    },
-    "images": [
-      "/assets/hh.jpg"
-    ],
-    "projects": [
-      {
-        "image": "/assets/photo-2026-08-07-18-12-23.jpg",
-        "caption": ""
-      },
-      {
-        "image": "/assets/photo-2026-08-07-18-12-20.jpg",
-        "caption": ""
-      },
-      {
-        "image": "/assets/photo-2026-08-07-18-12-12.jpg",
-        "caption": ""
-      }
-    ],
-    "featured": true
-  },
-  {
     "id": "black-diamond-granit",
     "name": "Black Diamond Granit",
     "origin": "Brazil",
@@ -301,6 +326,18 @@
     "projects": [
       {
         "image": "/assets/d73d71fada0739aa3987f21880daadcd.webp",
+        "caption": ""
+      },
+      {
+        "image": "/assets/37b08c1b-7910-405a-9953-e37f562f9a4f.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/03767ad3-bdac-4bc0-a6a1-d69d1c5b98ee.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/0790deec-7cb9-4ffe-9611-5d9cf8d10aa5.png",
         "caption": ""
       }
     ],
@@ -338,6 +375,14 @@
       {
         "image": "/assets/volga-blue-granite-finished-product-3089-6b.jpg",
         "caption": ""
+      },
+      {
+        "image": "/assets/e382805c-088d-4890-9991-7d58fffba6a0.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/14f90521-495b-4e9a-947d-f91aea34b1e6.png",
+        "caption": ""
       }
     ],
     "featured": true
@@ -373,6 +418,14 @@
       },
       {
         "image": "/assets/tan-brown-dd.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/assets/3b717c4a-1e84-4854-b96e-1d047846c21a.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/2bc4ffee-a244-4978-8fcc-bce5b3de7414.png",
         "caption": ""
       }
     ],
@@ -410,6 +463,10 @@
       },
       {
         "image": "/assets/raja-green-marble-gg.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/assets/897c9c5a-e2d3-4555-9750-b9cb51f91082.png",
         "caption": ""
       }
     ],
@@ -449,6 +506,10 @@
       {
         "image": "/assets/bog12.png",
         "caption": ""
+      },
+      {
+        "image": "/assets/272674ba-f1e5-4e6d-8b1a-bdaf6839c03a.png",
+        "caption": ""
       }
     ],
     "featured": true
@@ -486,6 +547,10 @@
       {
         "image": "/assets/koksaroy12.webp",
         "caption": ""
+      },
+      {
+        "image": "/assets/images-3-2.jpg",
+        "caption": ""
       }
     ],
     "featured": true
@@ -522,6 +587,10 @@
       {
         "image": "/assets/korboghh.png",
         "caption": ""
+      },
+      {
+        "image": "/assets/935d4c4c-3638-4ce5-a036-ef45a208989c.png",
+        "caption": ""
       }
     ],
     "featured": true
@@ -554,11 +623,15 @@
     ],
     "projects": [
       {
-        "image": "/assets/navbahor23.png",
+        "image": "/assets/f695fb2a-9a53-464d-89b7-5d4d91bf0f98.png",
         "caption": ""
       },
       {
-        "image": "/assets/navbahor34.png",
+        "image": "/assets/d66102ee-0b4d-4f75-b164-af00d52eb439.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/1766b87f-d43e-4828-a211-993e23fcd398.png",
         "caption": ""
       }
     ],
@@ -593,7 +666,11 @@
         "caption": ""
       },
       {
-        "image": "/assets/suvriq-31232.png",
+        "image": "/assets/image-1.webp",
+        "caption": ""
+      },
+      {
+        "image": "/assets/92cc98c9-4d2e-4ab0-acf6-d48cbae0f837.png",
         "caption": ""
       }
     ],
@@ -601,7 +678,7 @@
   },
   {
     "id": "zarband-marble-granit",
-    "name": "Zarband Marble Granit",
+    "name": "Zarband Marble",
     "origin": "Uzbekistan",
     "type": "granit",
     "colorFamily": "oq",
@@ -634,35 +711,6 @@
     "featured": true
   },
   {
-    "id": "iran-onyx-slab-granit",
-    "name": "Iran Onyx Slab Granit",
-    "origin": "Iran",
-    "type": "granit",
-    "colorFamily": "oq",
-    "finish": [
-      "polirovka",
-      "termo"
-    ],
-    "description": "Bu oniks slablari asosan yuqori darajadagi mehmonxonalar, villalar, restoranlar, ofislar va hashamatli turar joylarning ichki bezaklarida qo‘llaniladi. Har bir slab o‘ziga xos tabiiy naqsh va rangga ega bo‘lgani sababli takrorlanmas ko‘rinishga ega.",
-    "specs": {
-      "thickness": "belgilanmagan",
-      "formats": "60xП",
-      "application": [
-        "pol",
-        "fasad",
-        "zinapoya",
-        "stol usti"
-      ],
-      "hardness": "6-7 mos",
-      "absorption": "past"
-    },
-    "images": [
-      "/assets/121211221.jpg"
-    ],
-    "projects": [],
-    "featured": true
-  },
-  {
     "id": "new-force-granit",
     "name": "New Force Granit",
     "origin": "Uzbekistan",
@@ -692,6 +740,18 @@
     "projects": [
       {
         "image": "/assets/newforce12.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/73948081-08d6-417e-a503-7d6d5adcd7c8.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/9808b15e-51cf-43a6-8efd-6f0c1d45dbc0.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/e5aba4bc-8bfa-4486-938e-00b9e366e134.png",
         "caption": ""
       }
     ],
@@ -731,6 +791,14 @@
       {
         "image": "/assets/oqtosh121.png",
         "caption": ""
+      },
+      {
+        "image": "/assets/df31aefb-c41f-4035-928a-b91bd98b79ba.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/82bb7c24-5d42-4435-8d3a-7386a8b23c58.png",
+        "caption": ""
       }
     ],
     "featured": true
@@ -765,6 +833,18 @@
     "projects": [
       {
         "image": "/assets/trtrtr.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/9a3579e2-134e-41fd-8be3-4fe979471705.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/17abd16f-ecbe-47bf-b584-a33dd710af31.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/4969c9ee-908e-433f-b284-ac47dae6b5da.png",
         "caption": ""
       }
     ],
@@ -804,6 +884,14 @@
       {
         "image": "/assets/kont-black234324.png",
         "caption": ""
+      },
+      {
+        "image": "/assets/e4399de5-b9c5-499d-87f1-d560d6e5c3cd.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/4f760417-a4ff-48df-b21f-33b7594c5d31.png",
+        "caption": ""
       }
     ],
     "featured": true
@@ -839,6 +927,14 @@
       },
       {
         "image": "/assets/photo-2026-08-08-18-59-48.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/assets/b4a855c6-b396-4e29-8bc8-13bd3b298b97.png",
+        "caption": ""
+      },
+      {
+        "image": "/assets/2d3c4f75-61c1-4e06-bfaf-62c1eb1a5c58.png",
         "caption": ""
       }
     ],
@@ -876,8 +972,58 @@
       {
         "image": "/assets/forest121.jpg",
         "caption": ""
+      },
+      {
+        "image": "/assets/images-6.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/assets/images-5-2.jpg",
+        "caption": ""
       }
     ],
     "featured": true
+  },
+  {
+    "id": "galaxy-granit",
+    "name": "Galaxy Granit",
+    "origin": "India",
+    "type": "granit",
+    "colorFamily": "qora",
+    "finish": [
+      "polirovka",
+      "termo"
+    ],
+    "description": "Galaxy Granite — chuqur qora asosga ega bo‘lgan, yuzasida oltin-sariq va ba’zan kumushsimon mineral zarrachalar yaltirab turadigan premium tabiiy granit. Uning mayda yorqin mineral qo‘shimchalari tungi osmondagi yulduzlarni eslatgani uchun Black Galaxy nomi bilan mashhur.\n\nToshning qora foni va tabiiy oltinsimon yaltirashlari unga hashamatli, chuqur va zamonaviy ko‘rinish beradi. Polirovka qilinganda mineral zarrachalar yanada yorqin namoyon bo‘ladi. Har bir slabdagi zarrachalarning hajmi va zichligi tabiiy ravishda farq qilishi mumkin.",
+    "specs": {
+      "thickness": "belgilanmagan",
+      "formats": "60xП",
+      "application": [
+        "pol",
+        "fasad",
+        "zinapoya",
+        "stol usti"
+      ],
+      "hardness": "6-7 mos",
+      "absorption": "past"
+    },
+    "images": [
+      "/assets/galexy.jpg"
+    ],
+    "projects": [
+      {
+        "image": "/assets/galexy2.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/assets/galxy3.jpg",
+        "caption": ""
+      },
+      {
+        "image": "/assets/galexy1.jpg",
+        "caption": ""
+      }
+    ],
+    "featured": false
   }
 ]
