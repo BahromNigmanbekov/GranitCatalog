@@ -389,7 +389,7 @@
   },
   {
     "id": "tan-brown",
-    "name": "Tan Brown",
+    "name": "Tanbrown Black Slab",
     "origin": "India",
     "type": "granit",
     "colorFamily": "jigarrang",
@@ -397,7 +397,7 @@
       "polirovka",
       "termo"
     ],
-    "description": "Yuqori zichlikka ega bo‘lgan Tan Brown Granite tirnalish, issiqlik, namlik va kundalik foydalanishga juda chidamli. Polirovka qilingan yuzasi tabiiy ranglarini yanada yorqin namoyon etadi va uzoq yillar davomida o‘z jilosini saqlab qoladi. Shu sababli u oshxona stol ustilari, pol qoplamalari, zinapoyalar, devor panellari va tashqi fasad ishlari uchun keng qo‘llaniladi.",
+    "description": "Yuqori zichlikka ega bo‘lgan Tanbrown Black Slab  tirnalish, issiqlik, namlik va kundalik foydalanishga juda chidamli. Polirovka qilingan yuzasi tabiiy ranglarini yanada yorqin namoyon etadi va uzoq yillar davomida o‘z jilosini saqlab qoladi. Shu sababli u oshxona stol ustilari, pol qoplamalari, zinapoyalar, devor panellari va tashqi fasad ishlari uchun keng qo‘llaniladi.",
     "specs": {
       "thickness": "belgilanmagan",
       "formats": "60xП",
@@ -1032,7 +1032,7 @@
   },
   {
     "id": "tanbrown-black-slab",
-    "name": "Tanbrown Black Slab",
+    "name": "Tan Brown",
     "origin": "India",
     "type": "granit",
     "colorFamily": "jigarrang",
@@ -1040,7 +1040,7 @@
       "polirovka",
       "termo"
     ],
-    "description": "Tan Brown Black Slab — jigarrang, qora va mayda oltinrang kristallarning uyg‘unligi bilan ajralib turadigan tabiiy granit turi. Uning zich va mustahkam tuzilishi, chiroyli tabiiy teksturasi hamda yuqori chidamliligi uni zamonaviy va klassik interyerlar uchun mos materialga aylantiradi.",
+    "description": "Tan Brown  — jigarrang, qora va mayda oltinrang kristallarning uyg‘unligi bilan ajralib turadigan tabiiy granit turi. Uning zich va mustahkam tuzilishi, chiroyli tabiiy teksturasi hamda yuqori chidamliligi uni zamonaviy va klassik interyerlar uchun mos materialga aylantiradi.",
     "specs": {
       "thickness": "belgilanmagan",
       "formats": "60xП",

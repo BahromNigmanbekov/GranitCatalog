@@ -4,6 +4,8 @@ import type { Stone, StoneProject } from "../data/stones";
 import { TYPE_LABELS } from "../data/stones";
 import { ProductForm } from "./ProductForm";
 import { stoneToFormValues, stoneProjectsToDrafts, type ProductFormValues, type ProjectDraft } from "./formUtils";
+// CSS is resolved by the bundler; TypeScript does not have a declaration for it.
+// @ts-expect-error -- side-effect CSS import handled by the bundler
 import "./admin.css";
 
 async function readErrorMessage(res: Response, fallback: string): Promise<string> {

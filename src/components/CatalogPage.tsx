@@ -11,6 +11,18 @@ import { StoneCard } from "./StoneCard";
 
 const PAGE_SIZE = 12;
 
+const FIRST_STONE_IDS = [
+  "kuksaroy-grey",
+  "suvliq-granit",
+  "granit-butterfly",
+  "mordosh-travertin-granit",
+  "gazgan-marble",
+  "gazgan-black-marble",
+  "angola-black-granite",
+  "tanbrown-black-slab",
+];
+const STONE_ORDER = new Map(FIRST_STONE_IDS.map((id, index) => [id, index]));
+
 export function CatalogPage() {
   const [query, setQuery] = useState("");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -29,7 +41,14 @@ export function CatalogPage() {
   const filtered = useMemo(() => {
     const q = normalize(debouncedQuery);
     const result = q ? STONES.filter((s) => normalize(s.name).includes(q)) : STONES;
-    return [...result].sort((a, b) => a.name.localeCompare(b.name));
+    return [...result].sort((a, b) => {
+      if (!q) {
+        const orderA = STONE_ORDER.get(a.id) ?? FIRST_STONE_IDS.length;
+        const orderB = STONE_ORDER.get(b.id) ?? FIRST_STONE_IDS.length;
+        if (orderA !== orderB) return orderA - orderB;
+      }
+      return a.name.localeCompare(b.name);
+    });
   }, [debouncedQuery]);
 
   const visible = filtered.slice(0, visibleCount);
